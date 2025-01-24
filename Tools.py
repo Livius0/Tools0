@@ -195,7 +195,7 @@ while chiave != '0':
                     file_path = os.path.join(root, file)
                     try:
                         os.remove(file_path)
-                        print(f"File rimosso: {file_path}")
+                        print(f"File Removed: {file_path}")
                     except Exception as e:
                         print(f"Errore durante la rimozione del file {file_path}: {e}")
 
@@ -233,10 +233,3 @@ while chiave != '0':
         print("Enter a number\n")
         time.sleep(1)
         continue
-
-    
-   
-        
-
-                            
-
