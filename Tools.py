@@ -184,7 +184,7 @@ while chiave != '0':
             time.sleep(1)
             time.sleep(3)
         except Exception as e:
-            print(f"Errore: {e}")
+            print(f"Error: {e}")
 
     elif chiave == '11':
         def clean_system_temp_folder():
@@ -197,7 +197,7 @@ while chiave != '0':
                         os.remove(file_path)
                         print(f"File Removed: {file_path}")
                     except Exception as e:
-                        print(f"Errore durante la rimozione del file {file_path}: {e}")
+                        print(f"Error during file removal {file_path}: {e}")
 
                 for dir in dirs:
                     dir_path = os.path.join(root, dir)
@@ -233,3 +233,10 @@ while chiave != '0':
         print("Enter a number\n")
         time.sleep(1)
         continue
+
+    
+   
+        
+
+                            
+
