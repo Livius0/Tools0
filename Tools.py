@@ -120,7 +120,7 @@ while chiave != '0':
             time.sleep(1)
             os.system("cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH")
             time.sleep(1)
-            os.system("cscript ospp.vbs /sethst:107.175.77.7")
+            os.system("cscript ospp.vbs /sethst:e8.us.to")
             time.sleep(1)
             os.system("cscript ospp.vbs /act")
             print("Activated\n")
